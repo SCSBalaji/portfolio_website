@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "AI-Powered Chat Application",
+    "description": "A real-time chat application with AI-powered responses, featuring WebSocket communication and natural language processing.",
+    "tags": ["React", "Node.js", "Socket.io", "OpenAI"],
+    "category": "Web",
+    "github": "https://github.com/SCSBalaji",
+    "demo": "#",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Machine Learning Pipeline",
+    "description": "End-to-end ML pipeline for image classification with automated training, evaluation, and deployment capabilities.",
+    "tags": ["Python", "TensorFlow", "Docker", "FastAPI"],
+    "category": "ML",
+    "github": "https://github.com/SCSBalaji",
+    "demo": "#",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Portfolio Website",
+    "description": "A stunning 3D portfolio website built with React Three Fiber, featuring glassmorphism design and interactive elements.",
+    "tags": ["React", "Three.js", "Tailwind", "GSAP"],
+    "category": "Web",
+    "github": "https://github.com/SCSBalaji/portfolio_website",
+    "demo": "#",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Task Management System",
+    "description": "Full-stack task management application with drag-and-drop, real-time updates, and team collaboration features.",
+    "tags": ["React", "Express", "MongoDB", "Redux"],
+    "category": "Web",
+    "github": "https://github.com/SCSBalaji",
+    "demo": "#",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Data Visualization Dashboard",
+    "description": "Interactive dashboard for visualizing complex datasets with dynamic charts, filters, and export capabilities.",
+    "tags": ["D3.js", "React", "Python", "PostgreSQL"],
+    "category": "Data",
+    "github": "https://github.com/SCSBalaji",
+    "demo": "#",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "Blockchain Voting System",
+    "description": "Decentralized voting platform ensuring transparency and security using blockchain technology and smart contracts.",
+    "tags": ["Solidity", "Ethereum", "React", "Web3.js"],
+    "category": "Blockchain",
+    "github": "https://github.com/SCSBalaji",
+    "demo": "#",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "title": "Natural Language Processor",
+    "description": "NLP tool for sentiment analysis and text summarization using transformer models and custom training data.",
+    "tags": ["Python", "PyTorch", "HuggingFace", "Flask"],
+    "category": "ML",
+    "github": "https://github.com/SCSBalaji",
+    "demo": "#",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "title": "Cloud Infrastructure Manager",
+    "description": "Infrastructure-as-code tool for managing cloud resources across multiple providers with a unified interface.",
+    "tags": ["Go", "Terraform", "AWS", "Docker"],
+    "category": "DevOps",
+    "github": "https://github.com/SCSBalaji",
+    "demo": "#",
+    "featured": false
+  }
+]

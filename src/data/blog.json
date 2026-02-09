@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "slug": "getting-started-with-react-three-fiber",
+    "title": "Getting Started with React Three Fiber",
+    "date": "2024-12-15",
+    "tags": ["React", "Three.js", "3D", "Tutorial"],
+    "excerpt": "Learn how to create stunning 3D experiences in your React applications using React Three Fiber and Drei helpers.",
+    "content": "# Getting Started with React Three Fiber\n\nReact Three Fiber (R3F) is a powerful React renderer for Three.js that makes creating 3D scenes as intuitive as building React components.\n\n## Why React Three Fiber?\n\nTraditional Three.js requires imperative code that can be hard to manage in a React application. R3F bridges this gap by providing a declarative API.\n\n## Setting Up\n\nFirst, install the necessary packages:\n\n```bash\nnpm install @react-three/fiber @react-three/drei three\n```\n\n## Your First Scene\n\nHere's a simple rotating box:\n\n```jsx\nimport { Canvas } from '@react-three/fiber'\n\nfunction Box() {\n  return (\n    <mesh>\n      <boxGeometry />\n      <meshStandardMaterial color=\"orange\" />\n    </mesh>\n  )\n}\n\nexport default function App() {\n  return (\n    <Canvas>\n      <ambientLight />\n      <Box />\n    </Canvas>\n  )\n}\n```\n\n## Key Concepts\n\n- **Canvas**: The root component that sets up the Three.js scene\n- **mesh**: Combines geometry and material\n- **useFrame**: Hook for animation loops\n- **Drei**: Helper library with pre-built components\n\n## Conclusion\n\nR3F makes 3D development accessible to React developers. Start experimenting and build something amazing!"
+  },
+  {
+    "id": 2,
+    "slug": "building-scalable-apis-with-node",
+    "title": "Building Scalable APIs with Node.js",
+    "date": "2024-11-28",
+    "tags": ["Node.js", "API", "Backend", "Tutorial"],
+    "excerpt": "A comprehensive guide to designing and building scalable RESTful APIs using Node.js, Express, and best practices.",
+    "content": "# Building Scalable APIs with Node.js\n\nBuilding APIs that can handle growth is crucial for any modern application.\n\n## Architecture Decisions\n\nWhen building scalable APIs, consider:\n\n1. **Modular Structure**: Separate routes, controllers, and services\n2. **Database Optimization**: Use proper indexing and query optimization\n3. **Caching**: Implement Redis for frequently accessed data\n4. **Rate Limiting**: Protect your API from abuse\n\n## Project Structure\n\n```\nsrc/\n  routes/\n  controllers/\n  services/\n  middleware/\n  models/\n```\n\n## Key Takeaways\n\n- Always validate input data\n- Use proper error handling middleware\n- Implement logging for debugging\n- Write tests for critical paths\n\nScalability is not just about handling more requests—it is about maintaining code quality as your project grows."
+  },
+  {
+    "id": 3,
+    "slug": "my-journey-into-machine-learning",
+    "title": "My Journey Into Machine Learning",
+    "date": "2024-10-10",
+    "tags": ["Machine Learning", "Python", "Personal"],
+    "excerpt": "Sharing my personal experience diving into the world of machine learning, from confusion to building real projects.",
+    "content": "# My Journey Into Machine Learning\n\nMachine learning seemed like magic when I first encountered it. Here is how I went from complete beginner to building real ML projects.\n\n## The Beginning\n\nIt all started with a simple question: How does Netflix know what I want to watch?\n\n## Learning Path\n\n1. **Mathematics Foundation**: Linear algebra, calculus, and statistics\n2. **Python Basics**: NumPy, Pandas, Matplotlib\n3. **ML Fundamentals**: Supervised vs unsupervised learning\n4. **Deep Learning**: Neural networks with TensorFlow\n5. **Projects**: Building real applications\n\n## Challenges\n\n- Math can be intimidating at first\n- Debugging ML models is different from debugging code\n- Data preprocessing takes more time than you think\n\n## Advice for Beginners\n\n- Start with the basics and build up\n- Do not skip the math\n- Build projects early and often\n- Join communities and learn from others\n\nThe journey is ongoing, and that is the beautiful part about CS—there is always more to learn."
+  }
+]
