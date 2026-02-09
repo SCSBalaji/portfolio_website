@@ -1,0 +1,20 @@
+{
+  "categories": [
+    {
+      "name": "Languages",
+      "skills": ["JavaScript", "Python", "Java", "C++", "TypeScript", "Go", "SQL", "HTML/CSS"]
+    },
+    {
+      "name": "Frameworks",
+      "skills": ["React", "Node.js", "Express", "Next.js", "Django", "Flask", "Spring Boot", "Tailwind CSS"]
+    },
+    {
+      "name": "Tools & Platforms",
+      "skills": ["Git", "Docker", "AWS", "Firebase", "MongoDB", "PostgreSQL", "Linux", "VS Code"]
+    },
+    {
+      "name": "Concepts",
+      "skills": ["Data Structures", "Algorithms", "System Design", "Machine Learning", "REST APIs", "CI/CD", "Agile", "OOP"]
+    }
+  ]
+}
